@@ -32,7 +32,7 @@ public class EventoController {
 		return "evento/formEvento";
 	}
 
-@
+
 	
 	@RequestMapping(value="/cadastrarEvento", method=RequestMethod.POST)
 	public String form(@Valid Evento evento, BindingResult result, RedirectAttributes attributes){
